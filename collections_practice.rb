@@ -36,3 +36,7 @@ end
 def reverse_array(arr)
   arr.reverse
 end
+
+def kesha_maker(arr)
+  arr.slice(",")
+end
