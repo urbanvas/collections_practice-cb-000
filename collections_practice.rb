@@ -60,4 +60,5 @@ def add_s(arr)
     if e != arr[1]
       e << "s"
     end
+  end
 end
