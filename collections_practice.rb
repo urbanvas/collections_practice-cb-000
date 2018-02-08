@@ -38,7 +38,12 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
+  array = []
   arr.each do |element|
-    element[2].replace = "$"
+    element.each do |char|
+      if element[2]
+        element[2] = "$"
+      end
+    end
   end
 end
