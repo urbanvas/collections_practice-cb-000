@@ -40,10 +40,9 @@ end
 def kesha_maker(arr)
   array = []
   arr.each do |element|
-    element.each do |char|
       if element[2]
         element[2] = "$"
       end
-    end
+      array << element
   end
 end
