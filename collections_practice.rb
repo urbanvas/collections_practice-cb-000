@@ -50,3 +50,7 @@ end
 def find_a(arr)
   arr.select {|e| e[0] == "a"}
 end
+
+def sum_array(arr)
+  arr.inject { |sum, n| sum + n }
+end
