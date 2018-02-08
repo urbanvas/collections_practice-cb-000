@@ -38,5 +38,8 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.to_s
+  arr.each do |element|
+    element[2] << "$"
+    
+  end
 end
